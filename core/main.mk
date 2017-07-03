@@ -492,6 +492,7 @@ subdirs := \
 	external/compiler-rt \
 	external/clang \
 	external/e2fsprogs \
+	external/elfutils \
 	external/expat \
 	external/exfat \
 	external/libtar \
@@ -585,9 +586,11 @@ subdirs := \
 	frameworks/av/media/mediaserver \
 	frameworks/av/media/utils \
 	frameworks/av/services/audioflinger \
+	frameworks/av/services/audiopolicy \
 	frameworks/av/services/medialog \
 	frameworks/av/services/mediaresourcemanager \
 	frameworks/av/services/camera/libcameraservice \
+	frameworks/av/soundtrigger \
 	frameworks/base/cmds/bootanimation \
 	frameworks/base/cmds/screencap \
 	frameworks/base/libs/androidfw \
@@ -627,7 +630,8 @@ subdirs := \
 	system/security/keystore-engine \
 	system/keymaster \
 	system/gatekeeper \
-	system/tools/aidl
+	system/tools/aidl \
+	system/qcom
 
 # device and vendor
 subdirs += \

@@ -492,6 +492,7 @@ subdirs := \
 	external/compiler-rt \
 	external/clang \
 	external/e2fsprogs \
+	external/elfutils \
 	external/expat \
 	external/exfat \
 	external/libtar \

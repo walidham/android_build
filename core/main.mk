@@ -604,7 +604,8 @@ subdirs := \
 	system/qcom \
 	system/su \
 	system/security/keystore \
-	system/security/softkeymaster
+	system/security/softkeymaster \
+	system/extras/mkimage
 
 ifeq ($(TARGET_DEVICE),generic_x86)
 subdirs += \
@@ -617,6 +618,7 @@ subdirs += \
 	device/fairphone \
 	device/generic \
 	device/htc \
+	device/hp \
 	device/lge \
 	device/samsung \
 	device/sony \
@@ -629,6 +631,7 @@ subdirs += \
 	vendor/cm \
 	vendor/elan \
 	vendor/htc \
+	vendor/hp \
 	vendor/invensense \
 	vendor/lge \
 	vendor/nvidia \

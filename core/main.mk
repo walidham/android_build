@@ -597,7 +597,9 @@ subdirs := \
 	frameworks/base/libs/androidfw \
 	frameworks/base/libs/diskusage \
 	frameworks/base/libs/input \
+	frameworks/base/libs/storage \
 	frameworks/base/tools/aapt \
+	frameworks/base/native/android \
 	frameworks/native/cmds/installd \
 	frameworks/native/cmds/sensorservice \
 	frameworks/native/cmds/servicemanager \

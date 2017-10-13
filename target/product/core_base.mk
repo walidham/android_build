@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     TelephonyProvider \
     UserDictionaryProvider \
     atrace \
+    libandroid \
     libandroidfw \
     libaudiopreprocessing \
     libaudioutils \
